@@ -1,0 +1,845 @@
+{
+  "type": "bubble",
+  "size": "giga",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "backgroundColor": "#0d1117",
+    "paddingAll": "16px",
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "spacing": "md",
+        "alignItems": "center",
+        "contents": [
+          {
+            "type": "text",
+            "text": "⭐",
+            "size": "xxl",
+            "flex": 0,
+            "gravity": "center"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "spacing": "xs",
+            "contents": [
+              {
+                "type": "text",
+                "text": "中星運輸 KPI",
+                "color": "#00cc66",
+                "size": "sm",
+                "weight": "bold"
+              },
+              {
+                "type": "text",
+                "text": "最新單日 KPI",
+                "color": "#ffffff",
+                "size": "xl",
+                "weight": "bold"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "text": "日期：{{DATE}} ｜ 表現較低者置頂",
+        "color": "#888888",
+        "size": "xs",
+        "margin": "sm"
+      },
+      {
+        "type": "separator",
+        "color": "#333333",
+        "margin": "sm"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "spacing": "sm",
+        "margin": "sm",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "backgroundColor": "#2a2a40",
+            "cornerRadius": "8px",
+            "paddingAll": "8px",
+            "flex": 1,
+            "contents": [
+              {
+                "type": "text",
+                "text": "到店率",
+                "color": "#ffd700",
+                "size": "sm",
+                "weight": "bold",
+                "align": "center"
+              },
+              {
+                "type": "text",
+                "text": "司機　率",
+                "color": "#aaaaaa",
+                "size": "xxs",
+                "align": "center"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "backgroundColor": "#2a2a40",
+            "cornerRadius": "8px",
+            "paddingAll": "8px",
+            "flex": 1,
+            "contents": [
+              {
+                "type": "text",
+                "text": "準時率",
+                "color": "#ffd700",
+                "size": "sm",
+                "weight": "bold",
+                "align": "center"
+              },
+              {
+                "type": "text",
+                "text": "司機　率",
+                "color": "#aaaaaa",
+                "size": "xxs",
+                "align": "center"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "backgroundColor": "#2a2a40",
+            "cornerRadius": "8px",
+            "paddingAll": "8px",
+            "flex": 1,
+            "contents": [
+              {
+                "type": "text",
+                "text": "PP率",
+                "color": "#ffd700",
+                "size": "sm",
+                "weight": "bold",
+                "align": "center"
+              },
+              {
+                "type": "text",
+                "text": "司機　率",
+                "color": "#aaaaaa",
+                "size": "xxs",
+                "align": "center"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "spacing": "sm",
+        "margin": "sm",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "backgroundColor": "#5c0000",
+            "cornerRadius": "8px",
+            "paddingAll": "8px",
+            "flex": 1,
+            "contents": [
+              {
+                "type": "text",
+                "text": "邱昱凱",
+                "color": "#ffffff",
+                "size": "sm",
+                "weight": "bold",
+                "align": "center",
+                "wrap": true
+              },
+              {
+                "type": "text",
+                "text": "0.0% ⚠️",
+                "color": "#ff6666",
+                "size": "sm",
+                "align": "center"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "backgroundColor": "#5c0000",
+            "cornerRadius": "8px",
+            "paddingAll": "8px",
+            "flex": 1,
+            "contents": [
+              {
+                "type": "text",
+                "text": "李仁達",
+                "color": "#ffffff",
+                "size": "sm",
+                "weight": "bold",
+                "align": "center",
+                "wrap": true
+              },
+              {
+                "type": "text",
+                "text": "0.0% ⚠️",
+                "color": "#ff6666",
+                "size": "sm",
+                "align": "center"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "backgroundColor": "#1e1e2e",
+            "cornerRadius": "8px",
+            "paddingAll": "8px",
+            "flex": 1,
+            "contents": [
+              {
+                "type": "text",
+                "text": "劉嘉凱",
+                "color": "#ffffff",
+                "size": "sm",
+                "weight": "bold",
+                "align": "center",
+                "wrap": true
+              },
+              {
+                "type": "text",
+                "text": "100.0%",
+                "color": "#00cc66",
+                "size": "sm",
+                "align": "center"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "spacing": "sm",
+        "margin": "sm",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "backgroundColor": "#5c0000",
+            "cornerRadius": "8px",
+            "paddingAll": "8px",
+            "flex": 1,
+            "contents": [
+              {
+                "type": "text",
+                "text": "劉嘉凱",
+                "color": "#ffffff",
+                "size": "sm",
+                "weight": "bold",
+                "align": "center",
+                "wrap": true
+              },
+              {
+                "type": "text",
+                "text": "25.0% ⚠️",
+                "color": "#ff6666",
+                "size": "sm",
+                "align": "center"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "backgroundColor": "#5c0000",
+            "cornerRadius": "8px",
+            "paddingAll": "8px",
+            "flex": 1,
+            "contents": [
+              {
+                "type": "text",
+                "text": "蔣瑋溙",
+                "color": "#ffffff",
+                "size": "sm",
+                "weight": "bold",
+                "align": "center",
+                "wrap": true
+              },
+              {
+                "type": "text",
+                "text": "80.0% ⚠️",
+                "color": "#ff6666",
+                "size": "sm",
+                "align": "center"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "backgroundColor": "#1e1e2e",
+            "cornerRadius": "8px",
+            "paddingAll": "8px",
+            "flex": 1,
+            "contents": [
+              {
+                "type": "text",
+                "text": "高義翔",
+                "color": "#ffffff",
+                "size": "sm",
+                "weight": "bold",
+                "align": "center",
+                "wrap": true
+              },
+              {
+                "type": "text",
+                "text": "100.0%",
+                "color": "#00cc66",
+                "size": "sm",
+                "align": "center"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "spacing": "sm",
+        "margin": "sm",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "backgroundColor": "#5c0000",
+            "cornerRadius": "8px",
+            "paddingAll": "8px",
+            "flex": 1,
+            "contents": [
+              {
+                "type": "text",
+                "text": "劉嘉凱",
+                "color": "#ffffff",
+                "size": "sm",
+                "weight": "bold",
+                "align": "center",
+                "wrap": true
+              },
+              {
+                "type": "text",
+                "text": "69.2% ⚠️",
+                "color": "#ff6666",
+                "size": "sm",
+                "align": "center"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "backgroundColor": "#1e1e2e",
+            "cornerRadius": "8px",
+            "paddingAll": "8px",
+            "flex": 1,
+            "contents": [
+              {
+                "type": "text",
+                "text": "高義翔",
+                "color": "#ffffff",
+                "size": "sm",
+                "weight": "bold",
+                "align": "center",
+                "wrap": true
+              },
+              {
+                "type": "text",
+                "text": "90.9%",
+                "color": "#ffffff",
+                "size": "sm",
+                "align": "center"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "backgroundColor": "#1e1e2e",
+            "cornerRadius": "8px",
+            "paddingAll": "8px",
+            "flex": 1,
+            "contents": [
+              {
+                "type": "text",
+                "text": "李仁達",
+                "color": "#ffffff",
+                "size": "sm",
+                "weight": "bold",
+                "align": "center",
+                "wrap": true
+              },
+              {
+                "type": "text",
+                "text": "100.0%",
+                "color": "#00cc66",
+                "size": "sm",
+                "align": "center"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "spacing": "sm",
+        "margin": "sm",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "backgroundColor": "#1e1e2e",
+            "cornerRadius": "8px",
+            "paddingAll": "8px",
+            "flex": 1,
+            "contents": [
+              {
+                "type": "text",
+                "text": "高義翔",
+                "color": "#ffffff",
+                "size": "sm",
+                "weight": "bold",
+                "align": "center",
+                "wrap": true
+              },
+              {
+                "type": "text",
+                "text": "100.0%",
+                "color": "#00cc66",
+                "size": "sm",
+                "align": "center"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "backgroundColor": "#1e1e2e",
+            "cornerRadius": "8px",
+            "paddingAll": "8px",
+            "flex": 1,
+            "contents": [
+              {
+                "type": "text",
+                "text": "劉嘉凱",
+                "color": "#ffffff",
+                "size": "sm",
+                "weight": "bold",
+                "align": "center",
+                "wrap": true
+              },
+              {
+                "type": "text",
+                "text": "100.0%",
+                "color": "#00cc66",
+                "size": "sm",
+                "align": "center"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "backgroundColor": "#1e1e2e",
+            "cornerRadius": "8px",
+            "paddingAll": "8px",
+            "flex": 1,
+            "contents": [
+              {
+                "type": "text",
+                "text": "陳偉峰",
+                "color": "#ffffff",
+                "size": "sm",
+                "weight": "bold",
+                "align": "center",
+                "wrap": true
+              },
+              {
+                "type": "text",
+                "text": "100.0%",
+                "color": "#00cc66",
+                "size": "sm",
+                "align": "center"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "spacing": "sm",
+        "margin": "sm",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "backgroundColor": "#1e1e2e",
+            "cornerRadius": "8px",
+            "paddingAll": "8px",
+            "flex": 1,
+            "contents": [
+              {
+                "type": "text",
+                "text": "李仁達",
+                "color": "#ffffff",
+                "size": "sm",
+                "weight": "bold",
+                "align": "center",
+                "wrap": true
+              },
+              {
+                "type": "text",
+                "text": "100.0%",
+                "color": "#00cc66",
+                "size": "sm",
+                "align": "center"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "backgroundColor": "#1e1e2e",
+            "cornerRadius": "8px",
+            "paddingAll": "8px",
+            "flex": 1,
+            "contents": [
+              {
+                "type": "text",
+                "text": "劉嘉凱",
+                "color": "#ffffff",
+                "size": "sm",
+                "weight": "bold",
+                "align": "center",
+                "wrap": true
+              },
+              {
+                "type": "text",
+                "text": "100.0%",
+                "color": "#00cc66",
+                "size": "sm",
+                "align": "center"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "backgroundColor": "#1e1e2e",
+            "cornerRadius": "8px",
+            "paddingAll": "8px",
+            "flex": 1,
+            "contents": [
+              {
+                "type": "text",
+                "text": "劉嘉凱",
+                "color": "#ffffff",
+                "size": "sm",
+                "weight": "bold",
+                "align": "center",
+                "wrap": true
+              },
+              {
+                "type": "text",
+                "text": "100.0%",
+                "color": "#00cc66",
+                "size": "sm",
+                "align": "center"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "spacing": "sm",
+        "margin": "sm",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "backgroundColor": "#1e1e2e",
+            "cornerRadius": "8px",
+            "paddingAll": "8px",
+            "flex": 1,
+            "contents": [
+              {
+                "type": "text",
+                "text": "蔣瑋溙",
+                "color": "#ffffff",
+                "size": "sm",
+                "weight": "bold",
+                "align": "center",
+                "wrap": true
+              },
+              {
+                "type": "text",
+                "text": "100.0%",
+                "color": "#00cc66",
+                "size": "sm",
+                "align": "center"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "backgroundColor": "#1e1e2e",
+            "cornerRadius": "8px",
+            "paddingAll": "8px",
+            "flex": 1,
+            "contents": [
+              {
+                "type": "text",
+                "text": "邱昱凱",
+                "color": "#ffffff",
+                "size": "sm",
+                "weight": "bold",
+                "align": "center",
+                "wrap": true
+              },
+              {
+                "type": "text",
+                "text": "100.0%",
+                "color": "#00cc66",
+                "size": "sm",
+                "align": "center"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "backgroundColor": "#1e1e2e",
+            "cornerRadius": "8px",
+            "paddingAll": "8px",
+            "flex": 1,
+            "contents": [
+              {
+                "type": "text",
+                "text": "蔣瑋溙",
+                "color": "#ffffff",
+                "size": "sm",
+                "weight": "bold",
+                "align": "center",
+                "wrap": true
+              },
+              {
+                "type": "text",
+                "text": "100.0%",
+                "color": "#00cc66",
+                "size": "sm",
+                "align": "center"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "spacing": "sm",
+        "margin": "sm",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "backgroundColor": "#1e1e2e",
+            "cornerRadius": "8px",
+            "paddingAll": "8px",
+            "flex": 1,
+            "contents": [
+              {
+                "type": "text",
+                "text": "陳偉峰",
+                "color": "#ffffff",
+                "size": "sm",
+                "weight": "bold",
+                "align": "center",
+                "wrap": true
+              },
+              {
+                "type": "text",
+                "text": "100.0%",
+                "color": "#00cc66",
+                "size": "sm",
+                "align": "center"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "backgroundColor": "#1e1e2e",
+            "cornerRadius": "8px",
+            "paddingAll": "8px",
+            "flex": 1,
+            "contents": [
+              {
+                "type": "text",
+                "text": "陳偉峰",
+                "color": "#ffffff",
+                "size": "sm",
+                "weight": "bold",
+                "align": "center",
+                "wrap": true
+              },
+              {
+                "type": "text",
+                "text": "100.0%",
+                "color": "#00cc66",
+                "size": "sm",
+                "align": "center"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "backgroundColor": "#1e1e2e",
+            "cornerRadius": "8px",
+            "paddingAll": "8px",
+            "flex": 1,
+            "contents": [
+              {
+                "type": "text",
+                "text": "邱昱凱",
+                "color": "#ffffff",
+                "size": "sm",
+                "weight": "bold",
+                "align": "center",
+                "wrap": true
+              },
+              {
+                "type": "text",
+                "text": "100.0%",
+                "color": "#00cc66",
+                "size": "sm",
+                "align": "center"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "spacing": "sm",
+        "margin": "sm",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "backgroundColor": "#1e1e2e",
+            "cornerRadius": "8px",
+            "paddingAll": "8px",
+            "flex": 1,
+            "contents": [
+              {
+                "type": "text",
+                "text": "陳偉峰",
+                "color": "#ffffff",
+                "size": "sm",
+                "weight": "bold",
+                "align": "center",
+                "wrap": true
+              },
+              {
+                "type": "text",
+                "text": "100.0%",
+                "color": "#00cc66",
+                "size": "sm",
+                "align": "center"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "backgroundColor": "#1e1e2e",
+            "cornerRadius": "8px",
+            "paddingAll": "8px",
+            "flex": 1,
+            "contents": [
+              {
+                "type": "text",
+                "text": "陳偉峰",
+                "color": "#ffffff",
+                "size": "sm",
+                "weight": "bold",
+                "align": "center",
+                "wrap": true
+              },
+              {
+                "type": "text",
+                "text": "100.0%",
+                "color": "#00cc66",
+                "size": "sm",
+                "align": "center"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "backgroundColor": "#1e1e2e",
+            "cornerRadius": "8px",
+            "paddingAll": "8px",
+            "flex": 1,
+            "contents": [
+              {
+                "type": "text",
+                "text": "陳偉峰",
+                "color": "#ffffff",
+                "size": "sm",
+                "weight": "bold",
+                "align": "center",
+                "wrap": true
+              },
+              {
+                "type": "text",
+                "text": "100.0%",
+                "color": "#00cc66",
+                "size": "sm",
+                "align": "center"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "separator",
+        "color": "#333333",
+        "margin": "md"
+      },
+      {
+        "type": "text",
+        "text": "升冪排序　｜　低於 90% 自動標示 ⚠️",
+        "color": "#555555",
+        "size": "xxs",
+        "align": "center",
+        "margin": "sm"
+      }
+    ]
+  }
+}
